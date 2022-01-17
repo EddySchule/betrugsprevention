@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="onlineshop">Onlineshop</h1>
+    </div>
+
+    <div class="bestelldaten">
+      <div>
+        <p class="meine">Meine Daten</p>
+        <input class="name" type="text" placeholder="Name" />
+
+        <input class="nach-name" type="text" placeholder="Nachname" />
+        <input class="email" type="text" placeholder="muster@mail.com" />
+        <select class="kaufoption">
+          <option value="">Bitte wähle eine Kaufoption</option>
+          <option value="dog">PayPal</option>
+          <option value="cat">Bar</option>
+          <option value="hamster">Kreditkarte</option>
+          <option value="parrot">Rechnung</option>
+          <option value="spider">Paysafe</option>
+          <option value="goldfish">Handyrechnung</option>
+        </select>
+        <input
+          class="date"
+          type="date"
+          id="start"
+          name="trip-start"
+          value="2000-01-01"
+          min="1900-01-01"
+          max="2099-12-31"
+        />
+      </div>
+      <div>
+        <p class="liefer">Lieferadresse</p>
+        <input class="land" type="text" placeholder="Land" />
+        <input class="stadt" type="text" placeholder="Stadt" />
+        <input class="postleitzahl" type="text" placeholder="Postleitzahl" />
+        <input class="hausnummer" type="text" placeholder="Hausnummer" />
+        <input class="straße" type="text" placeholder="Straße" />
+      </div>
+      <div>
+        <p class="rechnung">Rechnungsadresse</p>
+        <input class="land" type="text" placeholder="Land" />
+        <input class="stadt" type="text" placeholder="Stadt" />
+        <input class="postleitzahl" type="text" placeholder="Postleitzahl" />
+        <input class="hausnummer" type="text" placeholder="Hausnummer" />
+        <input class="straße" type="text" placeholder="Straße" />
+      </div>
+    </div>
+
+    <button class="abschicken" onClick="goToPage()">Bestellen</button>
+
+    <label class="iphone" for="tentacles">iPhone:</label>
+
+    <input
+      class="iphone"
+      placeholder="0"
+      type="number"
+      id="tentacles"
+      name="iphone"
+      min="0"
+      max="50"
+    />
+
+    <label class="socken" for="tentacl">Socken:</label>
+
+    <input
+      class="socken"
+      type="number"
+      id="tentacl"
+      placeholder="0"
+      name="socken"
+      min="0"
+      max="500"
+    />
+
+    <label class="brille" for="tentacle">Brille:</label>
+
+    <input
+      class="brille"
+      type="number"
+      placeholder="0"
+      id="tentacle"
+      name="Brille"
+      min="0"
+      max="10"
+    />
+    <label class="schaufel" for="schaufel">Schaufel:</label>
+
+    <input
+      class="schaufel"
+      type="number"
+      placeholder="0"
+      id="schaufel"
+      name="schaufel"
+      min="0"
+      max="10"
+    />
+
+    <hr class="unterer-strich" />
+  </body>
+</html>

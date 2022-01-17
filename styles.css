@@ -1,0 +1,110 @@
+body {
+  font-family: 'Arial';
+  background: #333333;
+}
+
+.abschicken {
+  background: DodgerBlue;
+  color: black;
+  padding: 3.5px;
+  margin: 5px;
+  border-radius: 3px;
+  text-decoration: dashed;
+  text-align: 'center';
+  grid-area: 'sidebar';
+}
+
+.adresse {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div input,
+div select {
+  background: #8ccbff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.meine {
+  padding: 5px;
+  background: #00ccff;
+  border-radius: 3.5px;
+}
+
+.bestelldaten {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div input.date {
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+  background: #8ccbff;
+  font-family: 'Arial';
+  grid-area: 'sidebar';
+  display: inline-block;
+}
+
+.abschicken:hover {
+  background-color: #55ccff;
+  color: Grey;
+  margin: 5px;
+}
+
+.unterer-strich {
+  background: DodgerBlue;
+  padding: 2px;
+  border-radius: 2.5px;
+}
+
+.onlineshop {
+  color: black;
+  background-color: DodgerBlue;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.liefer {
+  padding: 5px;
+  background: #00ccff;
+  border-radius: 3.5px;
+}
+
+.rechnung {
+  padding: 5px;
+  background: #00ccff;
+  border-radius: 3.5px;
+}
+
+.schaufel {
+  padding: 2px;
+  background: #8ccbff;
+  border-radius: 1.5px;
+  color: black;
+}
+
+.iphone {
+  padding: 2px;
+  background: #8ccbff;
+  border-radius: 1.5px;
+  color: black;
+}
+
+.brille {
+  padding: 2px;
+  background: #8ccbff;
+  border-radius: 1.5px;
+  color: black;
+}
+
+.socken {
+  padding: 2px;
+  background: #8ccbff;
+  border-radius: 1.5px;
+  color: black;
+}
