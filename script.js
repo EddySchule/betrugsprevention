@@ -1,3 +1,6 @@
+window.toggleBasket= function () {
+  alert()
+}
 window.goToPage = function() {
   const [lieferland, rechnungsland] = document.getElementsByClassName('land');
   const [lieferstadt, rechnungsstadt] = document.getElementsByClassName('stadt');
