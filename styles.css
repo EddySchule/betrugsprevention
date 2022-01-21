@@ -40,6 +40,18 @@ div select {
   justify-content: space-evenly;
 }
 
+.header {
+  background-color: DodgerBlue;
+  padding: 1px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.warenkorb {
+  height: 50px;
+}
+
 div input.date {
   margin: 5px;
   padding: 2px;
@@ -64,9 +76,6 @@ div input.date {
 
 .onlineshop {
   color: black;
-  background-color: DodgerBlue;
-  padding: 1px;
-  border-radius: 10px;
 }
 
 .liefer {
