@@ -20,15 +20,22 @@ body {
 }
 
 .warenkorbinhalt {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 15px;
-  padding: 10px;
-  visibility: collapse;
+  padding: 0px;
+  max-height: 0;
+  height: 100%;
+  opacity: 0;
+  display: grid;
+  transition: max-height 0.4s, opacity 0.1s;
+  overflow: hidden;
 }
 .warenkorbinhalt.offen {
   visibility: visible;
+
+  max-height: 200px;
+  opacity: 1;
 }
 div input,
 div select {

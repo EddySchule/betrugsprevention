@@ -19,5 +19,6 @@ window.goToPage = function () {
     (lieferpostleitzahl.value === rechnungspostleitzahl.value ? 0 : 17) +
     (lieferhausnummer.value === rechnungshausnummer.value ? 0 : 5) +
     (lieferstraße.value === rechnungsstraße.value ? 0 : 10);
-  alert('Betrugswarschenlichkeit: ' + (score === 0 ? 1 : score));
-};
+    const confirmResult = confirm('--- Für Betrugsprüfer --- \nDie Betrugswahrscheinlichkeit ist   \n' + (score === 0 ? 1 : score) + "! Sollen wir die Bestellung freigeben oder abbrechen?");
+confirmResult === true ? alert("Ihre Bestellung wurde bestätigt") : alert("Ihre Bestellung wurde nicht bestätigt denn sie ähneln Betrug deshalb schicken wir ihnen eine extra Bibel zu.")
+}
